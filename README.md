@@ -27,3 +27,11 @@ end
 
     end
 end)
+local Tab = Window:NewTab("#Credits")
+local Section = Tab:NewSection("Mady by:")
+Section:NewButton("Anha#4156", "discord", function()
+    setclipboard("Anha#4156")
+end)
+Section:NewButton("Discord channel", "discord", function()
+    setclipboard("https://discord.gg/58rKZ7z4RV")
+end)
